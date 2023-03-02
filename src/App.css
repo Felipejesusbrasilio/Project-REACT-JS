@@ -1,0 +1,552 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+/* aqui é o container da function App          */
+.container 
+{
+	/*border: 1px solid black;*/
+	padding-bottom: 10px;
+}
+
+.container .menu 
+{
+	/*border: 1px solid black;*/
+	width: 100%;
+	height: 120px;
+	background-color: #3333FF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container .menu .Quadros-menu
+{
+	/*border: 1px solid red;*/
+	width: 100%;
+	height: 100%;
+	display: grid;
+	place-items: center;
+	padding-right: 5px;
+}
+
+.container .menu .Quadros-menu button 
+{
+	width: 50%;
+	height: 100%;
+	border-style: none;
+	background-color: #00CC00;
+	color: white;
+	font-weight: 600;
+}
+
+.container .menu .Quadros-menu button:hover
+{
+	background-color: green;
+}
+
+.container .menu .Quadros-menu a
+{
+	text-decoration: none;
+	color: white;
+	font-weight: 600;
+}
+
+.container .menu .Quadros-menu a:hover
+{
+	color: grey;
+}
+
+.container .menu .Quadros-menu p 
+{
+	color: white;
+	font-weight: 600;
+}
+
+.container .menu .Quadros-menu input
+{
+	width: 100%;
+	height: 30px;
+	border-style: none;
+	justify-items: center;
+	outline: none;
+	
+}
+
+
+.container .menu .Quadros-menu input::placeholder
+{
+	color: black;
+	font-weight: 600;
+	text-align: center;
+}
+
+.container .form-cadastro
+{
+	/*border: 1px solid #3333FF;*/
+	width: 100%;
+	height: 0px;
+	display: none;
+}
+
+.container .form-cadastro .close-form
+{
+	/*border: 1px solid #3333FF;*/
+	width: 100%;
+	height: 50px;
+}
+
+.container .form-cadastro .close-form img
+{
+	margin-top: 5px;
+	float: right;
+	margin-right: 10px;
+}
+
+.container .form-cadastro .cadastrando
+{
+	/*border: 1px solid red;*/
+	width: 100%;
+	height: 100%; 
+	padding: 5px;
+}
+
+.container .form-cadastro .cadastrando p 
+{
+	font-weight: 600;
+}
+
+.container .form-cadastro .cadastrando input
+{
+	width: 30%;
+}
+
+.container .form-cadastro .form-dados-central
+{
+	/*border: 1px solid red;*/
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+
+.container .form-cadastro .form-dados-central #Centralizando-logo
+{
+	display: grid;
+	place-items: center;
+	padding: 25px 
+}
+
+.container .form-cadastro .form-dados-central .Quadros-form-dados
+{
+	/*border: 1px solid black;*/
+	width: 100%;
+	height: 100%;
+	padding-bottom: 10px;
+}
+
+.container .form-cadastro .form-dados-central .Quadros-form-dados p 
+{
+	margin-top: 10px;
+	margin-left: 5px;
+	font-weight: 600;
+}
+
+.container .form-cadastro .form-dados-central .Quadros-form-dados input 
+{
+	border-style: none;
+}
+
+.container .form-cadastro .form-dados-central .Quadros-form-dados button 
+{
+  border-style: none;
+  width: 100%;
+  height: 50px;
+  background-color: #00CC00;
+  color: white;
+  font-weight: 600;
+}
+
+.container .form-cadastro .form-dados-central .Quadros-form-dados button:hover
+{
+	background-color: green;
+}
+
+.container .result-system-seo
+{
+	/*border: 1px solid red;*/
+	width: 100%;
+	height: 300px;
+	display: grid;
+	place-items: center;
+	padding: 10px;
+	background-color: #3333FF;
+	color: white;
+	font-weight: 600;
+}
+
+.container .CloseDivSeo
+{
+  background-color: #3333FF;
+}
+
+.container #CloseDivSeo
+{
+	display: none;
+}
+
+.container .CloseDivSeo button
+{
+  margin-left: 10px;
+  border-style: none;
+  background-color: #3333FF; 
+}
+
+/* Aqui é o .wallpaper-header da function header         */
+.wallaper-header
+{
+	/*border: 1px solid black;*/
+	width: 100%;
+	height: 100%;
+}
+
+.wallaper-header header 
+{
+	/*border: 1px solid black;*/
+	width: 100%;
+	height: 100px;
+	background-color: #3333FF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.wallaper-header header .cards
+{
+	/*border: 1px solid red;*/
+	width: 100%;
+	height: 80px;
+	display: grid;
+	place-items: center;
+	padding: 5px;
+}
+
+.wallaper-header header .cards h1
+{
+	color: white;
+}
+
+.wallaper-header header .cards form input
+{
+	width: 100%;
+	height: 30px;
+	border-style: none;
+	justify-items: center;
+	outline: none;
+	margin-top: 5px;
+}
+
+.wallaper-header header .cards form input::placeholder
+{
+	color: black;
+	font-weight: 600;
+	text-align: center;
+}
+
+.wallaper-header header .cards form #color 
+{
+	border-style: none;
+	background-color: #00CC00;
+	color: white;
+	font-weight: 600;
+}
+
+.wallaper-header header .cards form #color:hover
+{
+	background-color: green;
+}
+
+.Central-produtos
+{
+	/*border: 1px solid red;*/
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.Central-produtos .Quadros-produtos
+{
+	/*border: 1px solid black;*/
+	width: 100%;
+	height: 100%;
+	padding-right: 1px;
+	padding-left: 1px;
+}
+
+.Central-produtos .Quadros-produtos .title
+{
+	/*border: 1px solid red;*/
+	width: 100%;
+	height: 100%;
+	display: grid;
+	place-items: center;
+}
+
+.Central-produtos .Quadros-produtos .body 
+{
+	display: grid;
+	place-items: center;
+}
+
+.Central-produtos .Quadros-produtos .body-imagem
+{
+	border: 3px solid #3333FF;
+	width: 100%;
+	height: 100%;
+	display: grid;
+	place-items: center;
+}
+
+.Central-produtos .Quadros-produtos .body-valor
+{
+	/*border: 1px solid red;*/
+	width: 100%;
+	height: 100%;
+	display: grid;
+	place-items: center;
+}
+
+.Central-produtos .Quadros-produtos .body-valor p 
+{
+	font-weight: 600;
+}
+
+.Central-produtos .Quadros-produtos .title-tamanhos
+{
+	/*border: 1px solid red;*/
+	width: 100%;
+	height: 50px;
+	display: grid;
+	place-items: center;
+}
+
+.Central-produtos .Quadros-produtos .title-tamanhos p 
+{
+	font-weight: 600;
+}
+
+.Central-produtos .Quadros-produtos .body-tamanhos
+{
+	/*border: 1px solid red;*/
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    padding: 10px;
+}
+
+.Central-produtos .Quadros-produtos .body-tamanhos input
+{
+	border-style: none;
+	width: 25px;
+	height: 25px;
+	margin-left: 5px;
+	background-color: #3333FF;
+	color: white;
+	font-weight: 600;
+	border-radius: 5px;
+}
+
+.Central-produtos .Quadros-produtos .body-tamanhos input:hover
+{
+	background-color: #00CC00;
+}
+
+.Central-produtos .Quadros-produtos .buttons
+{
+	/*border: 1px solid black;*/
+	width: 100%;
+	height: 50px;
+}
+
+.Central-produtos .Quadros-produtos .buttons button 
+{
+	border-style: none;
+	width: 100%;
+	height: 50px;
+	background-color: #00CC00;
+	color: white;
+	font-weight: 600;
+}
+
+.Central-produtos .Quadros-produtos .buttons button:hover
+{
+	background-color: green;
+}
+
+.Central-produtos .Quadros-produtos .buttons button a 
+{
+	text-decoration: none;
+	color: white;
+}
+
+
+.Produtos 
+{
+	/*border: 2px solid black;*/
+	width: 100%;
+	height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5;
+}
+
+.Produtos .Div-central
+{
+	/*border: 1px solid red;*/
+	width: 100%;
+	height: 100px;
+	display: flex;
+}
+
+.Produtos .Div-central .Quadros-produtos
+{
+	/*border: 1px solid black;*/
+	width: 100%;
+	height: 100%;
+	display: grid;
+	place-items: center;
+}
+
+.Produtos .Div-central .Quadros-produtos button 
+{
+	border-style: none;
+	width: 100%;
+	height: 100%;
+	color: white;
+	background-color: #00CED1;
+	font-weight: 600;
+}
+
+
+.Produtos .Div-central .Quadros-produtos button:hover
+{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.Produtos .Div-central .Quadros-produtos a img 
+{
+  width: 50px;
+  height: 50px;
+}
+
+.Produtos .Div-central .Quadros-produtos #logo
+{
+	width: 150px;
+	height: 50px;
+}
+
+@media only screen and (max-width: 1281px)
+{
+	.Central-produtos
+	{
+		flex-wrap: wrap;
+	}
+
+	.Produtos 
+	{
+		margin-top: -77px;
+	}
+
+	.Central-produtos .Quadros-produtos .body-tamanhos
+	{
+		flex-wrap: wrap;
+	}
+
+	.container .form-cadastro .cadastrando input
+	{
+		width: 50%;
+	}
+}
+
+
+@media only screen and (max-width: 1025px)
+{
+	.Central-produtos
+	{
+		flex-wrap: wrap;
+	}
+
+	.Produtos 
+	{
+		margin-top: -77px;
+	}
+
+	.Central-produtos .Quadros-produtos .body-tamanhos
+	{
+		flex-wrap: wrap;
+	}
+
+	.container .form-cadastro .cadastrando input
+	{
+		width: 50%;
+	}
+}
+
+
+@media only screen and (max-width: 961px)
+{
+	.Central-produtos
+	{
+		flex-wrap: wrap;
+	}
+
+	.Produtos 
+	{
+		margin-top: -77px;
+	}
+
+	.Central-produtos .Quadros-produtos .body-tamanhos
+	{
+		flex-wrap: wrap;
+	}
+
+	.container .form-cadastro .cadastrando input
+	{
+		width: 50%;
+	}
+}
+
+
+@media only screen and (max-width: 600px)
+{
+	.Central-produtos
+	{
+		flex-wrap: wrap;
+	}
+
+	.Produtos 
+	{
+		margin-top: -77px;
+	}
+
+	.Central-produtos .Quadros-produtos .body-tamanhos
+	{
+		flex-wrap: wrap;
+	}
+
+	.container .form-cadastro .cadastrando input
+	{
+		width: 100%;
+	}
+}
+
+
